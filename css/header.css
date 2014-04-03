@@ -1,9 +1,36 @@
 .header {
-    height: 200px;
+    height: 1000px;
     position: relative;
 }
-    .header__logo {
-        position: absolute;
-        left: 10px;
-        top: 10px;
+
+    .header__top {
+        height: 50px;
+        background: rgba(105,153,56,.8);
+        border-radius: 0 0 9px 9px;
+    }
+
+        .header__top__icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 26px;
+            margin-top: 5px;
+        }
+
+        .header__top__nav {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 25px;
+            margin-top: 4px;
+        }
+
+        .header__top__button {
+            display: inline-block;
+            vertical-align: top;
+            width: 227px;
+            margin-left: 65px;
+            margin-top: 9px;
+        }
+
+    .header__body {
+
     }

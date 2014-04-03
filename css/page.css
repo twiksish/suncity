@@ -2,7 +2,7 @@
 
 }
     .page__header {
-
+        background: url(../images/header_background.png) no-repeat center top;
     }
 
     .page__nav {
