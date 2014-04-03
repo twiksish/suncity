@@ -1,17 +1,107 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
 }
 
-.icon_bitcoin {
-    width: 33px;
-    height: 33px;
-    background-position: 0 -72px;
+.icon_logo {
+    width: 40px;
+    height: 40px;
+    background: url(../images/icon_logo.png) no-repeat;
+}
+
+.icon_lock {
+    width: 8px;
+    height: 11px;
+    background: url(../images/icon_lock.png) no-repeat;
+}
+
+.icon_key {
+    width: 7px;
+    height: 12px;
+    background: url(../images/icon_key.png) no-repeat;
+}
+
+.icon_breadcrumbs-arrow {
+    width: 9px;
+    height: 9px;
+    background: url(../images/icon_breadcrumbs_arrow.png) no-repeat;
+}
+
+.icon_arrow-left {
+    width: 14px;
+    height: 22px;
+    background: url(../images/icon_arrow_left.png) no-repeat;
+}
+
+.icon_arrow-right {
+    width: 14px;
+    height: 22px;
+    background: url(../images/icon_arrow_right.png) no-repeat;
+}
+
+.icon_vk-green {
+    width: 36px;
+    height: 35px;
+    background: url(../images/icon_vk-green.png) no-repeat;
+}
+
+.icon_vk {
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon_vk.png) no-repeat;
+}
+
+.icon_fb-green {
+    width: 36px;
+    height: 35px;
+    background: url(../images/icon_fb-green.png) no-repeat;
+}
+
+.icon_fb {
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon_fb.png) no-repeat;
+}
+
+.icon_twitter-green {
+    width: 36px;
+    height: 35px;
+    background: url(../images/icon_twitter-green.png) no-repeat;
+}
+
+.icon_twitter {
+    width: 36px;
+    height: 36px;
+    background: url(../images/icon_twitter.png) no-repeat;
+}
+
+.icon_instagram-green {
+    width: 36px;
+    height: 35px;
+    background: url(../images/icon_instagram-green.png) no-repeat;
+}
+
+.icon_list {
+    width: 43px;
+    height: 49px;
+    background: url(../images/icon_list.png) no-repeat;
 }
 
 .icon_house {
-    width: 13px;
-    height: 10px;
-    background-position: -33px -72px;
+    width: 86px;
+    height: 83px;
+    background: url(../images/icon_house.png) no-repeat;
 }
+
+.icon_pig {
+    width: 86px;
+    height: 83px;
+    background: url(../images/icon_pig.png) no-repeat;
+}
+
+.icon_box {
+    width: 86px;
+    height: 83px;
+    background: url(../images/icon_box.png) no-repeat;
+}
+
