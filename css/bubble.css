@@ -1,0 +1,48 @@
+.bubble {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(241,168,79,.8);
+    position: relative;
+    text-align: center;
+}
+
+    .bubble__icon {
+        padding-top: 35px;
+    }
+
+    .bubble__label {
+        margin-top: 4px;
+    }
+
+        .bubble__label__counter {
+            font-size: 92px;
+            line-height: 94px;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 4px;
+        }
+
+        .bubble__label__text {
+            font-size: 35px;
+            line-height: 42px;
+            text-align: left;
+            display: inline-block;
+            vertical-align: top;
+            padding-top: 10px;
+        }
+
+        .bubble__label__text_small {
+            font-size: 21px;
+            line-height: 26px;
+            padding-top: 13px;
+        }
+
+        .bubble__label__text_sparsed {
+            margin-left: 15px;
+        }
+
+    .bubble__link {
+        margin-top: 13px;
+    }
