@@ -83,3 +83,32 @@
             margin-top: 33px;
         }
 
+    .index__gifts {
+
+    }
+
+        .index__gifts__title {
+            margin-top: 44px;
+        }
+
+        .index__gifts__list {
+            margin-top: 38px;
+            white-space: nowrap;
+        }
+
+            .index__gifts__list__item {
+                width: 145px;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 15px;
+            }
+
+            .index__gifts__list__item:first-child{
+                margin-left: 0;
+            }
+
+        .index__gifts__link {
+            text-align: right;
+            margin-top: 38px;
+        }
+

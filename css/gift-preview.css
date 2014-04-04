@@ -1,0 +1,19 @@
+.gift-preview {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
+    text-align: center;
+}
+
+    .gift-preview__image {
+
+    }
+
+        .gift-preview__image__file {
+            max-width: 145px;
+            max-height: 145px;
+        }
+
+    .gift-preview__text {
+        margin-top: 17px;
+    }
