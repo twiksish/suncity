@@ -35,3 +35,23 @@
         background: #c1c1c1;
         margin-top: 46px;
     }
+
+    .index__bonus {
+
+    }
+
+        .index__bonus__title {
+            margin-top: 44px;
+        }
+
+        .index__bonus__text {
+            margin-top: 38px;
+            font-size: 14px;
+            line-height: 26px;
+        }
+
+        .index__bonus__link {
+            text-align: right;
+            margin-top: 33px;
+        }
+
