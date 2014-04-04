@@ -1,15 +1,17 @@
 .body {
-
+    background: rgba(255,255,255,.8);
+    border-radius: 20px 20px 0 0;
+    padding: 43px 25px 20px 25px;
 }
-    .body__sidebar {
-        display: inline-block;
-        vertical-align: top;
-        width: 200px;
-        margin: 0 20px 0 0;
+
+    .body__header {
+
     }
 
-    .body__content {
-        display: inline-block;
-        vertical-align: top;
-        width: 740px;
-    }
+        .body__header__breadcrumbs {
+
+        }
+
+        .body__header__title {
+
+        }

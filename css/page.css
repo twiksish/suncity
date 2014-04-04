@@ -5,12 +5,9 @@
         background: url(../images/header_background.png) no-repeat center top;
     }
 
-    .page__nav {
-        margin: 20px 0 0;
-    }
-
     .page__body {
-        margin: 20px 0 0;
+        margin: -266px 0 0;
+        position: relative;
     }
 
     .page__footer {

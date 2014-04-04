@@ -1,0 +1,37 @@
+.index {
+
+}
+
+    .index__news {
+
+    }
+
+        .index__news__title {
+
+        }
+
+        .index__news__list {
+            margin-top: 37px;
+        }
+
+            .index__news__list__item {
+                width: 280px;
+                display: inline-block;
+                vertical-align: top;
+                margin-left: 30px;
+            }
+
+            .index__news__list__item:first-child {
+                margin-left: 0;
+            }
+
+        .index__news__link {
+            text-align: right;
+            margin-top: 33px;
+        }
+
+    .index__separator {
+        height: 2px;
+        background: #c1c1c1;
+        margin-top: 46px;
+    }

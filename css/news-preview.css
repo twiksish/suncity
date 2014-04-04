@@ -1,0 +1,18 @@
+.news-preview {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000;
+}
+
+    .news-preview__date {
+
+    }
+
+    .news-preview__title {
+        margin-top: 10px;
+    }
+
+    .news-preview__text {
+        margin-top: 13px;
+    }
+
