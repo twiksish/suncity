@@ -1,9 +1,91 @@
 .footer {
-    height: 100px;
+    height: 360px;
+    background: #f49a34;
     position: relative;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000;
 }
     .footer__copyright {
         position: absolute;
-        left: 0;
-        top: 10px;
+        top: 46px;
+        left: 26px;
     }
+
+    .footer__review {
+        position: absolute;
+        top: 123px;
+        left: 26px;
+    }
+
+        .footer__review__text {
+
+        }
+
+        .footer__review__phone {
+            font-weight: normal;
+            margin-top: 6px;
+        }
+
+    .footer__contact {
+        position: absolute;
+        top: 239px;
+        left: 26px;
+    }
+
+        .footer__contact__text {
+
+        }
+
+        .footer__contact__link {
+            font-weight: normal;
+            margin-top: 7px;
+        }
+
+    .footer__links {
+        position: absolute;
+        top: 46px;
+        left: 351px;
+    }
+
+        .footer__links__title {
+
+        }
+
+        .footer__links__list {
+            font-weight: normal;
+            margin-top: 17px;
+        }
+
+            .footer__links__list__item {
+                margin-top: 11px;
+            }
+
+            .footer__links__list__item:first-child {
+                margin-top: 0;
+            }
+
+        .footer__social {
+            position: absolute;
+            top: 46px;
+            left: 673px;
+        }
+
+            .footer__social__title {
+
+            }
+
+            .footer__social__list {
+                margin-top: 21px;
+            }
+
+                .footer__social__list__item {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 24px;
+                }
+
+                .footer__social__list__item:first-child {
+                    margin-left: 0;
+                }

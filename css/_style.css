@@ -30,7 +30,7 @@
 /*@import url(sidebar.css);*/
 /*@import url(content.css);*/
 @import url(header.css);
-/*@import url(footer.css);*/
+@import url(footer.css);
 @import url(body.css);
 @import url(region.css);
 @import url(page.css);
