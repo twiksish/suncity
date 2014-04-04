@@ -1,0 +1,12 @@
+.partner {
+
+}
+
+    .partner__image {
+        text-align: center;
+    }
+
+        .partner__image__file {
+            max-width: 280px;
+            max-height: 145px;
+        }

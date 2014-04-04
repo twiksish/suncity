@@ -55,3 +55,31 @@
             margin-top: 33px;
         }
 
+    .index__partners {
+
+    }
+
+        .index__partners__title {
+            margin-top: 44px;
+        }
+
+        .index__partners__list {
+            margin: 26px -12px -12px;
+        }
+
+            .index__partners__list__item {
+                width: 280px;
+                display: inline-block;
+                vertical-align: top;
+                margin: 12px;
+            }
+
+            .index__partners__list__item:first-child {
+                margin-left: 0;
+            }
+
+        .index__partners__link {
+            text-align: right;
+            margin-top: 33px;
+        }
+
