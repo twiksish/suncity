@@ -6,8 +6,12 @@
     }
 
     .page__body {
-        margin: -266px 0 0px;
+        margin: -640px 0 0px;
         position: relative;
+    }
+
+    .page__body_index {
+        margin-top: -266px;
     }
 
     .page__footer {

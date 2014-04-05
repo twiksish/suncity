@@ -1,13 +1,37 @@
 .breadcrumbs {
-    margin: 0 -4px;
     cursor: default;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
 }
+
     .breadcrumbs__item {
         display: inline-block;
         vertical-align: top;
-        margin: 0 4px;
+        margin-left: 13px;
+    }
+
+    .breadcrumbs__item:first-child {
+        margin-left: 0;
+        position: relative;
     }
 
         .breadcrumbs__item__link {
-            color: #999;
+            text-decoration: underline;
+            color: #699938;
+            font-size: 14px;
+            line-height: 16px;
+        }
+
+        .breadcrumbs__item__separator {
+            width: 9px;
+            height: 9px;
+            background: url(../images/icon_breadcrumbs_arrow.png);
+            position: absolute;
+            top: 5px;
+            left: 61px;
+        }
+
+        .breadcrumbs__item__link:hover {
+            text-decoration: none;
         }
