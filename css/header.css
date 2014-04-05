@@ -11,24 +11,22 @@
 
         .header__top__icon {
             display: inline-block;
-            vertical-align: middle;
+            vertical-align: top;
             margin-left: 26px;
             margin-top: 5px;
         }
 
         .header__top__nav {
             display: inline-block;
-            vertical-align: middle;
-            margin-left: 25px;
-            margin-top: 4px;
+            vertical-align: top;
+            margin-left: 30px;
         }
 
         .header__top__button {
-            display: inline-block;
-            vertical-align: top;
             width: 227px;
-            margin-left: 65px;
-            margin-top: 9px;
+            position: absolute;
+            top: 9px;
+            right: 25px;
         }
 
     .header__body {
@@ -46,7 +44,7 @@
             font-weight: bold;
             position: absolute;
             top: 83px;
-            right: 36px;
+            right: 67px;
         }
 
             .header__body__phone__code {

@@ -8,12 +8,26 @@
     .nav__item {
         display: inline-block;
         vertical-align: top;
-        margin-left: 25px;
+        margin-left: 17px;
     }
         .nav__item__link {
-
+            display: block;
+            padding: 0 4px;
+            height: 45px;
+            line-height: 49px;
+            border-bottom: 5px solid transparent;
         }
 
     .nav__item:first-child {
         margin-left: 0;
     }
+
+        .nav__item__link:active,
+        .nav__item__link:hover {
+            color: #f49a34;
+        }
+
+        .nav__item__link_current {
+            border-bottom-color: #f49a34;
+            color: #f49a34;
+        }
