@@ -1,0 +1,114 @@
+.profile {
+    font-size: 14px;
+    line-height: 16px;
+    color: #010101;
+}
+
+    .profile__data {
+        display: inline-block;
+        vertical-align: top;
+        width: 475px;
+    }
+
+        .profile__data__edit {
+            margin-top: 45px;
+        }
+
+            .profile__data__edit__image {
+                display: inline-block;
+                vertical-align: top;
+            }
+
+                .profile__data__edit__image__file {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+
+            .profile__data__edit__action {
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 22px;
+                margin-left: 25px;
+            }
+
+                .profile__data__edit__action__item {
+                    margin-top: 19px;
+                }
+
+                .profile__data__edit__action__item:first-child {
+                    margin-top: 0;
+                }
+
+                    .profile__data__edit__action__item__link {
+                        color: #699938;
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+
+        .profile__data__description {
+            margin-top: 45px;
+        }
+
+            .profile__data__description__item {
+                margin-top: 19px;
+            }
+
+            .profile__data__edit__description__item {
+                margin-top: 0;
+            }
+
+        .profile__data__id {
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #699938;
+            margin-top: 42px;
+        }
+
+    .profile__bonus-data {
+        width: 400px;
+        display: inline-block;
+        vertical-align: top;
+        background: rgba(244,154,52,.7);
+        font-size: 14px;
+        line-height: 16px;
+        color: #000;
+        border-radius: 10px;
+        margin-top: 45px;
+        margin-left: 25px;
+        padding: 22px 25px 74px;
+    }
+
+        .profile__bonus-data__title {
+            font-weight: bold;
+        }
+
+        .profile__bonus-data__list {
+            margin-top: 44px;
+        }
+
+            .profile__bonus-data__list__item {
+                margin-top: 44px;
+            }
+
+            .profile__bonus-data__list__item:first-child {
+                margin-top: 0;
+            }
+
+                .profile__bonus-data__list__item__title {
+                    font-weight: bold;
+                }
+
+                .profile__bonus-data__list__item__text {
+                    margin-top: 19px;
+                }
+
+                .profile__bonus-data__list__item__note {
+                    color: #699938;
+                    margin-top: 20px;
+                }
+
+                .profile__bonus-data__list__item__link {
+                    margin-top: 19px;
+                }
