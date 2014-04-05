@@ -77,3 +77,15 @@
 .wysiwyg h4:first-child {
     margin-top: 0;
 }
+
+.wysiwyg .left-image {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.wysiwyg .right-image {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}

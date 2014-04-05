@@ -1,21 +1,27 @@
 .pagination {
     text-align: center;
     cursor: default;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
 }
 
     .pagination__item {
         display: inline-block;
         vertical-align: middle;
-        margin: 0 4px;
+        margin: 0 2px;
     }
 
         .pagination__item__link {
-
+            color: #69a338;
+            text-decoration: underline;
         }
 
         .pagination__item__link_active,
         .pagination__item__link:hover {
-            color: #4e9fcf;
+            color: #000;
+            text-decoration: none;
         }
 
 

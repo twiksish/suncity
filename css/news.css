@@ -1,0 +1,19 @@
+.news {
+
+}
+
+    .news__list {
+        margin-top: 37px;
+    }
+
+        .news__list__item {
+            margin-top: 40px;
+        }
+
+        .news__list__item:first-child {
+            margin-top: 0;
+        }
+
+    .news__pagination {
+        margin-top: 67px;
+    }

@@ -16,3 +16,8 @@
         margin-top: 13px;
     }
 
+    .news-preview_collapsed .news-preview__text {
+        margin-top: 16px;
+        line-height: 16px;
+    }
+
