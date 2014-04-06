@@ -6,6 +6,10 @@
         margin-top: 45px;
     }
 
+    .form_auth .form__row {
+        margin-top: 20px;
+    }
+
     .form__row:first-child {
         margin-top: 0;
     }
@@ -15,7 +19,28 @@
         text-align: center;
     }
 
+    .form_auth .form__submit {
+        margin-top: 45px;
+    }
+
         .form__submit__item {
             display: inline-block;
             vertical-align: top;
+        }
+
+    .form__links {
+        margin-top: 42px;
+        position: relative;
+    }
+
+        .form__links__left {
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        .form__links__right {
+            position: absolute;
+            top: 0;
+            right: 0;
         }

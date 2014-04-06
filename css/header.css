@@ -22,11 +22,24 @@
             margin-left: 30px;
         }
 
-        .header__top__button {
+        .header__top__sign-up {
             position: absolute;
             top: 9px;
             right: 25px;
         }
+
+            .header__top__sign-up__handler {
+
+            }
+
+            .header__top__sign-up__form {
+                position: absolute;
+                top: 100%;
+                right: 0;
+                margin-top: 34px;
+                z-index: 100;
+                display: none;
+            }
 
     .header__body {
         position: relative;
