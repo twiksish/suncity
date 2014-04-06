@@ -7,12 +7,7 @@
     color: #000;
 }
 
-.title_large {
-    font-size: 24px;
-    line-height: 24px;
-}
-
 .title_small {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 16px;
 }

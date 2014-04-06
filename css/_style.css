@@ -15,6 +15,8 @@
 @import url(partner.css);
 @import url(news.css);
 @import url(profile.css);
+@import url(catalog.css);
+@import url(menu.css);
 /*@import url(table.css);*/
 /*@import url(video.css);*/
 /*@import url(col.css);*/
@@ -29,7 +31,7 @@
 /*@import url(copyright.css);*/
 @import url(breadcrumbs.css);
 @import url(pagination.css);
-/*@import url(sidebar.css);*/
+@import url(sidebar.css);
 /*@import url(content.css);*/
 @import url(header.css);
 @import url(footer.css);

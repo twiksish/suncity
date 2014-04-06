@@ -17,3 +17,20 @@
 
         }
 
+    .body__content {
+
+    }
+
+    .body__sidebar {
+        width: 300px;
+        margin-right: 25px;
+        display: inline-block;
+        vertical-align: top;
+        min-height: 1px;
+    }
+
+    .body__sidebar + .body__content {
+        width: 625px;
+        display: inline-block;
+        vertical-align: top;
+    }

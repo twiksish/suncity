@@ -2,8 +2,16 @@
 
 }
     .sidebar__item {
-        margin: 20px 0 0;
+        margin: 46px 0 0;
     }
+
+        .sidebar__item__title {
+            margin-top: 20px;
+        }
+
+        .sidebar__item__body {
+            margin-top: 18px;
+        }
 
     .sidebar__item:first-child {
         margin-top: 0;
