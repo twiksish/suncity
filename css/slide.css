@@ -1,0 +1,26 @@
+.slide {
+    position: relative;
+}
+
+    .slide__image {
+
+    }
+
+        .slide__image__file {
+            border-radius: 13px;
+            width: 950px;
+            height: 298px;
+        }
+
+    .slide__button {
+        position: absolute;
+        bottom: 23px;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+        .slide__button__inner {
+            display: inline-block;
+            vertical-align: top;
+        }
