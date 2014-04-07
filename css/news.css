@@ -1,13 +1,12 @@
 .news {
 
 }
-
     .news__list {
         margin-top: 37px;
     }
 
         .news__list__item {
-            margin-top: 40px;
+            margin-top: 44px;
         }
 
         .news__list__item:first-child {

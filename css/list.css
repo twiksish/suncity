@@ -1,0 +1,21 @@
+.list {
+
+}
+    .list__item {
+        position: relative;
+        padding-left: .75em;
+    }
+    .list__item:before {
+        content: '-';
+        color: #699938;
+        position: absolute;
+        left: 0;
+    }
+
+    .list_sparsed .list__item {
+        margin-top: 11px;
+    }
+
+    .list__item:first-child {
+        margin-top: 0;
+    }

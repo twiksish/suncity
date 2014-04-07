@@ -17,7 +17,7 @@
         display: inline-block;
         vertical-align: top;
         width: 450px;
-        margin-left: 45px;
+        margin-left: 50px;
         margin-top: 41px;
     }
 
@@ -35,10 +35,10 @@
                 margin-top: 23px;
             }
 
-            .sign-up__right__features__item:first-child {
-                margin-top: 0;
-            }
-
             .sign-up__right__features__item_pushed {
                 margin-top: 25px;
+            }
+
+            .sign-up__right__features__item:first-child {
+                margin-top: 0;
             }

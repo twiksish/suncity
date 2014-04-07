@@ -31,6 +31,8 @@
     .form__links {
         margin-top: 42px;
         position: relative;
+        font-size: 14px;
+        line-height: 17px;
     }
 
         .form__links__left {

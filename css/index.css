@@ -1,114 +1,31 @@
 .index {
-
+    font-size: 14px;
+    line-height: 26px;
 }
-
-    .index__news {
-
+    .index__section {
+        margin: 42px 0 0;
+        border-top: 2px solid #c1c1c1;
+        padding: 44px 0 0;
     }
 
-        .index__news__title {
+        .index__section__title {
 
         }
 
-        .index__news__list {
-            margin-top: 37px;
+        .index__section__body {
+            margin: 38px 0 0;
         }
 
-            .index__news__list__item {
-                width: 280px;
-                display: inline-block;
-                vertical-align: top;
-                margin-left: 45px;
+        .index__section__footer {
+            margin: 32px 0 0;
+        }
+            .index__section__footer__details {
+                text-align: right;
             }
 
-            .index__news__list__item:first-child {
-                margin-left: 0;
-            }
-
-        .index__news__link {
-            text-align: right;
-            margin-top: 33px;
-        }
-
-    .index__separator {
-        height: 2px;
-        background: #c1c1c1;
-        margin-top: 46px;
+    .index__section:first-child {
+        margin-top: 0;
+        border-top: 0;
+        padding-top: 0;
     }
-
-    .index__bonus {
-
-    }
-
-        .index__bonus__title {
-            margin-top: 44px;
-        }
-
-        .index__bonus__text {
-            margin-top: 38px;
-            font-size: 14px;
-            line-height: 26px;
-        }
-
-        .index__bonus__link {
-            text-align: right;
-            margin-top: 33px;
-        }
-
-    .index__partners {
-
-    }
-
-        .index__partners__title {
-            margin-top: 44px;
-        }
-
-        .index__partners__list {
-            margin: 26px -20px -20px;
-        }
-
-            .index__partners__list__item {
-                width: 280px;
-                display: inline-block;
-                vertical-align: top;
-                margin: 20px;
-            }
-
-            .index__partners__list__item:first-child {
-                margin-left: 0;
-            }
-
-        .index__partners__link {
-            text-align: right;
-            margin-top: 33px;
-        }
-
-    .index__gifts {
-
-    }
-
-        .index__gifts__title {
-            margin-top: 44px;
-        }
-
-        .index__gifts__list {
-            margin-top: 42px;
-            white-space: nowrap;
-        }
-
-            .index__gifts__list__item {
-                width: 145px;
-                display: inline-block;
-                vertical-align: top;
-                margin-left: 17px;
-            }
-
-            .index__gifts__list__item:first-child{
-                margin-left: 0;
-            }
-
-        .index__gifts__link {
-            text-align: right;
-            margin-top: 38px;
-        }
 

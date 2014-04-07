@@ -10,10 +10,14 @@
 @import url(bubble.css);
 @import url(field.css);
 @import url(title.css);
+@import url(list.css);
+@import url(social.css);
+@import url(partners.css);
 @import url(news-preview.css);
 @import url(gift-preview.css);
-@import url(partner.css);
 @import url(news.css);
+@import url(feed.css);
+@import url(catalog-preview.css);
 @import url(profile.css);
 @import url(catalog.css);
 @import url(menu.css);

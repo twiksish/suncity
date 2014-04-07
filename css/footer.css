@@ -1,91 +1,36 @@
 .footer {
-    height: 360px;
+    padding: 46px 25px 80px;
     background: #f49a34;
-    position: relative;
     font-size: 14px;
     line-height: 17px;
-    font-weight: bold;
     color: #000;
 }
-    .footer__copyright {
-        position: absolute;
-        top: 46px;
-        left: 26px;
+
+    .footer__column {
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin: 0 0 0 25px;
     }
-
-    .footer__review {
-        position: absolute;
-        top: 123px;
-        left: 26px;
-    }
-
-        .footer__review__text {
-
+        .footer__column__item {
+            margin: 42px 0 0;
         }
-
-        .footer__review__phone {
-            font-weight: normal;
-            margin-top: 6px;
-        }
-
-    .footer__contact {
-        position: absolute;
-        top: 240px;
-        left: 24px;
-    }
-
-        .footer__contact__text {
-
-        }
-
-        .footer__contact__link {
-            font-weight: normal;
-            margin-top: 7px;
-        }
-
-    .footer__links {
-        position: absolute;
-        top: 46px;
-        left: 351px;
-    }
-
-        .footer__links__title {
-
-        }
-
-        .footer__links__list {
-            font-weight: normal;
-            margin-top: 17px;
-        }
-
-            .footer__links__list__item {
-                margin-top: 11px;
+            .footer__column__item__title {
+                font-weight: bold;
             }
 
-            .footer__links__list__item:first-child {
-                margin-top: 0;
+            .footer__column__item__body {
+                margin: 7px 0 0;
             }
 
-        .footer__social {
-            position: absolute;
-            top: 46px;
-            left: 673px;
-        }
-
-            .footer__social__title {
-
-            }
-
-            .footer__social__list {
+            .footer__column__item__body_pushed {
                 margin-top: 21px;
             }
 
-                .footer__social__list__item {
-                    display: inline-block;
-                    vertical-align: top;
-                    margin-left: 24px;
-                }
+        .footer__column__item:first-child {
+            margin-top: 0;
+        }
 
-                .footer__social__list__item:first-child {
-                    margin-left: 0;
-                }
+    .footer__column:first-child {
+        margin-left: 0;
+    }

@@ -1,0 +1,33 @@
+.catalog-preview {
+    margin: 0 -8px;
+}
+    .catalog-preview__item {
+        display: inline-block;
+        vertical-align: top;
+        width: 145px;
+        margin: 0 8px;
+    }
+        .catalog-preview__item__link {
+            display: block;
+            text-align: center;
+        }
+
+            .catalog-preview__item__link__image {
+                width: 145px;
+                height: 145px;
+                line-height: 145px;
+                text-align: center;
+            }
+
+                .catalog-preview__item__link__image__file {
+                    line-height: 0;
+                    max-width: 100%;
+                    max-height: 100%;
+                    vertical-align: middle;
+                }
+
+            .catalog-preview__item__link__title {
+                margin: 17px 0 0;
+                font-size: 14px;
+                line-height: 16px;
+            }

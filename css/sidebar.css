@@ -1,5 +1,7 @@
 .sidebar {
-
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
 }
     .sidebar__item {
         margin: 46px 0 0;

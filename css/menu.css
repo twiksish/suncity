@@ -6,6 +6,15 @@
 
     .menu__item {
         margin-top: 10px;
+        padding-left: .75em;
+        position: relative;
+    }
+
+    .menu__item:before {
+        content: '-';
+        color: #699938;
+        position: absolute;
+        left: 0;
     }
 
     .menu__item:first-child {

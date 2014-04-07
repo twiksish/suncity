@@ -5,9 +5,6 @@
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width">
-        <!-- Uncomment in case of responsive design and delete tag above
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        -->
         <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
         <link rel="stylesheet" href="css/_style.css">
@@ -35,7 +32,7 @@
                 <div class="region">
                     <header class="header">
 
-                       <div class="header__top">
+                        <div class="header__top">
                             <div class="header__top__icon">
                                 <a class="logo-small" href="#">
                                     <i class="icon icon_logo"></i>
@@ -59,18 +56,79 @@
                                         <a class="nav__item__link" href="#">Новости</a>
                                     </div>
                                 </nav>
-                            </div><!--
-                         --><div class="header__top__button">
-                                <a class="button" href="#">
-                                    <div class="button__icon">
-                                        <i class="icon icon_lock"></i>
-                                    </div><!--
-                                 --><div class="button__text">Регистрация / Вход</div><!--
-                                 --><div class="button__icon">
-                                        <i class="icon icon_key"></i>
+                            </div>
+                            <div class="header__top__sign-up">
+                                <div class="header__top__sign-up__handler">
+                                    <a class="button" href="#">
+                                        <div class="button__icon">
+                                            <i class="icon icon_lock"></i>
+                                        </div><!--
+                                     --><div class="button__text">Регистрация / Вход</div><!--
+                                     --><div class="button__icon">
+                                            <i class="icon icon_key"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="header__top__sign-up__form">
+                                    <div class="auth">
+                                        <i class="auth__pin"></i>
+                                        <div class="auth__header">
+                                            <div class="auth__header__title">Войти через аккаунт в социальной сети</div>
+                                            <div class="auth__header__social">
+                                                <ul class="social">
+                                                    <li class="social__item">
+                                                        <a class="social__item__link" href="#">
+                                                            <i class="icon icon_vkontakte"></i>
+                                                        </a>
+                                                    </li><!--
+                                                 --><li class="social__item">
+                                                        <a class="social__item__link" href="#">
+                                                            <i class="icon icon_facebook"></i>
+                                                        </a>
+                                                    </li><!--
+                                                 --><li class="social__item">
+                                                        <a class="social__item__link" href="#">
+                                                            <i class="icon icon_twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="auth__body">
+                                            <div class="auth__body__title">Войти через логин/пароль</div>
+                                            <div class="auth__body__form">
+                                                <form class="form form_auth">
+                                                    <div class="form__row">
+                                                        <div class="field">
+                                                            <label class="field__label" for="temp-field-id-a"><b>Введите логин</b></label>
+                                                            <input class="field__input" type="text" id="temp-field-id-a">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form__row">
+                                                        <div class="field">
+                                                            <label class="field__label" for="temp-field-id-a"><b>Введите пароль</b></label>
+                                                            <input class="field__input" type="password" id="temp-field-id-a">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form__links">
+                                                        <div class="form__links__left">
+                                                            <a class="link" href="#">Забыли пароль?</a>
+                                                        </div>
+                                                        <div class="form__links__right">
+                                                            <a class="link" href="#">Зарегистрироваться</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form__submit">
+                                                        <div class="form__submit__item">
+                                                            <input class="button button_wider" type="submit" value="Войти">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
                                     </div>
-                                </a>
-                           </div>
+                                </div>
+                            </div>
                        </div>
 
                        <div class="header__body">
@@ -170,53 +228,74 @@
             <div class="page__footer">
                 <div class="region">
                     <footer class="footer">
-                        <div class="footer__copyright">© Бонусная программа<br> "Солнечный город". 2014 </div>
-                        <div class="footer__review">
-                            <div class="footer__review__text">Оставьте свой отзыв о работе<br> ресторанов Солнечного города по<br> телефону:</div>
-                            <div class="footer__review__phone">+7 (4852) 67-44-44</div>
-                        </div>
-                        <div class="footer__contact">
-                            <div class="footer__contact__text">Напишите нам</div>
-                            <div class="footer__contact__link">
-                                <a class="link" href="#">info@suncity76.ru</a>
+
+                        <div class="footer__column">
+                            <div class="footer__column__item">
+                                <div class="footer__column__item__title">© Бонусная программа "Солнечный город". 2014</div>
                             </div>
-                        </div>
-                        <div class="footer__links">
-                            <div class="footer__links__title">Быстрые ссылки</div>
-                            <ul class="footer__links__list">
-                                <li class="footer__links__list__item">
-                                    <a class="link" href="#">- Условия бонусной программы</a>
-                                </li>
-                                <li class="footer__links__list__item">
-                                    <a class="link" href="#">- Рестораны-партнеры</a>
-                                </li>
-                                <li class="footer__links__list__item">
-                                    <a class="link" href="#">- Каталог подарков</a>
-                                </li>
-                                <li class="footer__links__list__item">
-                                    <a class="link" href="#">- Доставка еды из ресторанов-партнеров</a>
-                                </li>
-                                <li class="footer__links__list__item">
-                                    <a class="link" href="#">- Новости</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="footer__social">
-                            <div class="footer__social__title">Соцсети</div>
-                            <ul class="footer__social__list">
-                                <li class="footer__social__list__item">
-                                    <i class="icon icon_vk-green"></i>
-                                </li><!--
-                             --><li class="footer__social__list__item">
-                                    <i class="icon icon_fb-green"></i>
-                                </li><!--
-                             --><li class="footer__social__list__item">
-                                    <i class="icon icon_twitter-green"></i>
-                                </li><!--
-                             --><li class="footer__social__list__item">
-                                    <i class="icon icon_instagram-green"></i>
-                                </li>
-                            </ul>
+                            <div class="footer__column__item">
+                                <div class="footer__column__item__title">Оставьте свой отзыв о работе ресторанов Солнечного города по телефону:</div>
+                                <div class="footer__column__item__body">+7 (4852) 67-44-44</div>
+                            </div>
+                            <div class="footer__column__item">
+                                <div class="footer__column__item__title">Напишите нам</div>
+                                <div class="footer__column__item__body">
+                                    <a class="link" href="mailto:info@suncity76.ru">info@suncity76.ru</a>
+                                </div>
+                            </div>
+                        </div><!--
+                     --><div class="footer__column">
+                            <div class="footer__column__item">
+                                <div class="footer__column__item__title">Быстрые ссылки</div>
+                                <div class="footer__column__item__body footer__column__item__body_pushed">
+                                    <ul class="list list_sparsed">
+                                        <li class="list__item">
+                                            <a class="link" href="#">Условия бонусной программы</a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="link" href="#">Рестораны-партнеры</a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="link" href="#">Каталог подарков</a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="link" href="#">Доставка еды из ресторанов-партнеров</a>
+                                        </li>
+                                        <li class="list__item">
+                                            <a class="link" href="#">Новости</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!--
+                     --><div class="footer__column">
+                            <div class="footer__column__item">
+                                <div class="footer__column__item__title">Соцсети</div>
+                                <div class="footer__column__item__body footer__column__item__body_pushed">
+                                    <ul class="social">
+                                        <li class="social__item">
+                                            <a class="social__item__link" href="#">
+                                                <i class="icon icon_vkontakte-green"></i>
+                                            </a>
+                                        </li><!--
+                                     --><li class="social__item">
+                                            <a class="social__item__link" href="#">
+                                                <i class="icon icon_facebook-green"></i>
+                                            </a>
+                                        </li><!--
+                                     --><li class="social__item">
+                                            <a class="social__item__link" href="#">
+                                                <i class="icon icon_twitter-green"></i>
+                                            </a>
+                                        </li><!--
+                                     --><li class="social__item">
+                                            <a class="social__item__link" href="#">
+                                                <i class="icon icon_instagram-green"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </footer>
                 </div>

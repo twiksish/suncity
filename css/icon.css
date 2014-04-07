@@ -11,7 +11,7 @@
 
 .icon_lock {
     width: 8px;
-    height: 11px;
+    height: 12px;
     background: url(../images/icon_lock.png) no-repeat;
 }
 
@@ -39,25 +39,25 @@
     background: url(../images/icon_arrow_right.png) no-repeat;
 }
 
-.icon_vk-green {
+.icon_vkontakte-green {
     width: 36px;
     height: 35px;
     background: url(../images/icon_vk-green.png) no-repeat;
 }
 
-.icon_vk {
+.icon_vkontakte {
     width: 36px;
     height: 36px;
     background: url(../images/icon_vk.png) no-repeat;
 }
 
-.icon_fb-green {
+.icon_facebook-green {
     width: 36px;
     height: 35px;
     background: url(../images/icon_fb-green.png) no-repeat;
 }
 
-.icon_fb {
+.icon_facebook {
     width: 36px;
     height: 36px;
     background: url(../images/icon_fb.png) no-repeat;

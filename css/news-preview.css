@@ -1,6 +1,6 @@
 .news-preview {
     font-size: 14px;
-    line-height: 26px;
+    line-height: 16px;
     color: #000;
 }
 
@@ -9,15 +9,10 @@
     }
 
     .news-preview__title {
-        margin-top: 10px;
+        margin-top: 18px;
+        font-weight: bold;
     }
 
     .news-preview__text {
-        margin-top: 13px;
+        margin-top: 21px;
     }
-
-    .news-preview_collapsed .news-preview__text {
-        margin-top: 16px;
-        line-height: 16px;
-    }
-
