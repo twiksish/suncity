@@ -2,7 +2,8 @@
 
 }
     .page__header {
-        background: url(../images/header_background.png) no-repeat center top;
+        background: url(../images/header_background.jpg) no-repeat center top;
+        height: 1000px;
     }
 
     .page__body {
