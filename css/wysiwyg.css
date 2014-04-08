@@ -19,11 +19,11 @@
     padding-left: 1em;
 }
 
-.wysiwyg li {
+.wysiwyg ul li {
     position: relative;
 }
 
-.wysiwyg li:before {
+.wysiwyg ul li:before {
     content: '-';
     position: absolute;
     right: 100%;
