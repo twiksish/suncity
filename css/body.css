@@ -20,16 +20,16 @@
         }
 
     .body__content {
-
+        margin: 40px 0 0;
     }
 
     .body__slider {
-
+        margin: 44px 0 0;
     }
 
     .body__sidebar {
         width: 300px;
-        margin-right: 25px;
+        margin: 40px 25px 0 0;
         display: inline-block;
         vertical-align: top;
         min-height: 1px;
