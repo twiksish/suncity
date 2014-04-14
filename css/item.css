@@ -1,0 +1,98 @@
+.item {
+
+}
+    .item__title {
+
+    }
+
+    .item__data {
+        margin: 20px 0 0;
+        position: relative;
+    }
+
+        .item__data__preview {
+            display: inline-block;
+            vertical-align: top;
+            width: 272px;
+            margin: 0 25px 0 0;
+        }
+            .item__data__preview__image {
+                width: 100%;
+                height: auto;
+            }
+
+        .item__data__stats {
+            display: inline-block;
+            vertical-align: top;
+            width: 328px;
+        }
+            .item__data__stats__description {
+                font-size: 14px;
+                line-height: 16px;
+            }
+
+            .item__data__stats__price {
+                margin: 43px 0 0;
+                font-size: 24px;
+                line-height: 24px;
+                color: #f49a34;
+            }
+
+            .item__data__stats__order {
+                margin: 45px 0 0;
+                width: 164px;
+            }
+
+            .item__data__popup {
+                background: #fff;
+                background: rgba(255,255,255,.9);
+                box-shadow: 0 0 15px #699938;
+                border-radius: 5px;
+                position: absolute;
+                top: 4px;
+                left: 50%;
+                width: 310px;
+                margin: 0 0 0 -155px;
+                padding: 47px 20px;
+                text-align: center;
+                font-size: 14px;
+                line-height: 17px;
+                display: none;
+            }
+                .item__data__popup__row {
+                    margin: 21px 0 0;
+                }
+                    .item__data__popup__row_red {
+                        color: #ff0000;
+                    }
+
+                    .item__data__popup__row_green {
+                        color: #699938;
+                    }
+
+                .item__data__popup__row:first-child {
+                    margin-top: 0;
+                }
+
+    .item__separator {
+        margin: 49px 0 0;
+        border-top: 1px solid #d8dcc4;
+        border-bottom: 1px solid #a5a6a1;
+    }
+
+    .item__suggest {
+        margin: 44px 0 0;
+    }
+        .item__suggest__title {
+
+        }
+
+        .item__suggest__catalog {
+            margin: 20px -11px;
+        }
+            .item__suggest__catalog__item {
+                display: inline-block;
+                vertical-align: top;
+                width: 137px;
+                margin: 20px 12px;
+            }

@@ -21,3 +21,10 @@ $(document).on('ready', function() {
         'usecaptions' : false
     });
 });
+
+$(document).on('ready', function(){
+    $('#temp-order').on('click', function(event){
+        event.preventDefault();
+        $('.item__data__popup').fadeIn();
+    });
+});

@@ -6,14 +6,33 @@
 }
 
     .gift-preview__image {
-
+        width: 137px;
+        height: 137px;
+        line-height: 133px;
     }
-
         .gift-preview__image__file {
-            max-width: 145px;
-            max-height: 145px;
+            max-width: 100%;
+            max-height: 100%;
+            vertical-align: middle;
         }
 
-    .gift-preview__text {
-        margin-top: 17px;
+    .gift-preview__title {
+        margin-top: 7px;
+        font-size: 14px;
+        line-height: 16px;
+        color: #699938;
+    }
+        .gift-preview__title__link {
+            text-decoration: underline;
+        }
+
+        .gift-preview:hover .gift-preview__title__link {
+            text-decoration: none;
+        }
+
+    .gift-preview__price {
+        margin: 18px 0 0;
+        font-size: 12px;
+        line-height: 15px;
+        color: #010101;
     }
